@@ -1,19 +1,19 @@
 {
-  "name": "browser-extension-starter-template",
+  "name": "@gsmlg-browser-extensions/gemini-control",
   "version": "0.0.1",
-  "description": "Chrome extension",
-  "homepage": "https://wwww.stefanvd.net",
-  "author": "Stefan Van Damme",
+  "description": "Gemini Control browser extension",
+  "homepage": "https://github.com/gsmlg-co/gemini-control",
+  "author": "gsmlg-co",
   "license": "GPL-2.0",
   "repository": {
     "type": "git",
-    "url": "git@github.com:stefanvd/browser-extension-starter-template.git"
+    "url": "git@github.com:gsmlg-co/gemini-control.git"
   },
   "devDependencies": {
     "eslint": "^7.17.0",
     "prettier": "^2.1.2"
   },
   "scripts": {
-    "dist": "zip -r dist/$npm_package_name-$npm_package_version.zip src"
+    "dist": "zip -r dist/gemini-control-$npm_package_version.zip src"
   }
 }
